@@ -9,6 +9,16 @@
   "author": "david ashton",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "angular-grid": "~1.15.0",
+    "jquery": "~2.1.4",
+    "angular": "~1.4.5",
+    "browserify": "~11.1.0",
+    "watchify": "~3.4.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-livereload": "~3.8.0",
+    "vinyl-source-stream": "~1.1.0"
   }
 }
