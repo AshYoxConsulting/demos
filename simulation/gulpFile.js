@@ -21,7 +21,7 @@ function browserifyShare(){
     bundleShare(b);
   });
 
-  b.add('./src/js/app.js');
+  b.add(['src/js/simGrid/index.js','src/js/app.js']);
   bundleShare(b);
 }
 

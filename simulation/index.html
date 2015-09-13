@@ -13,13 +13,48 @@
 
 
   </head>
-  <body>
+  <body ng-app="simApp">
+    <div class="container" ng-controller="simController">
 
-    <div id="example"></div>
-<!--
-      <div id="myGrid" style="height: 100%;" class="ag-fresh"></div> -->
+      <div class="page-header">
+        <h1>Power Plant Data<small> CCGT</small></h1>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-8">
+          <table class="table table-striped">
 
-    <!-- <script src="build/sim.js"></script> -->
-        <script src="build/simGrid.js"></script>
+            <tbody>
+              <tr>
+
+                <td>Generation Capacity</td>
+                <td>MW</td>
+                <td>{{fixedInputData.Capacity}}</td>
+              </tr>
+              <tr>
+
+                <td>Forecast Max Export Limit</td>
+                <td>MW</td>
+                <td>{{fixedInputData.MaxLimit}}</td>
+              </tr>
+              <tr>
+
+                <td>Stable Export Limit</td>
+                <td>MW</td>
+                <td>{{fixedInputData.StableLimit}}</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="col-3">
+        </div>
+      </div>
+
+
+    </div>
+        <script src="deploy/bundle.js"></script>
   </body>
 </html>
