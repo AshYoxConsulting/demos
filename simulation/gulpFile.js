@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var browserify = require('browserify');
 var source = require("vinyl-source-stream");
 var watchify = require('watchify');
-var     livereload = require('gulp-livereload');
+var livereload = require('gulp-livereload');
 
 gulp.task('browserify', function(){
   browserifyShare();

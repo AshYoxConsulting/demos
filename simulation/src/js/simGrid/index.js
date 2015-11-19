@@ -1,4 +1,5 @@
 
 'use strict';
+var simController =  require('./simController');
 var app = require('angular').module('simGrid',[]);
-app.controller('simController', require('./simController'));
+app.controller('simController',simController);

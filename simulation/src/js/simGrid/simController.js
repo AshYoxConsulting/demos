@@ -3,7 +3,7 @@
 
 module.exports = function($scope) {
   $scope.fixedInputData={
-    'Capacity':890,
+    'Capacity':1002,
     'MaxLimit':850,
     'StableLimit': 450
   };
